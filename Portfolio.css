@@ -1,0 +1,170 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+.logo{
+    flex: 1;
+    margin-left: 20px;
+    text-indent: 60px;
+    color: brown;
+    font-size: x-large;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    flex: 2;
+    column-gap: 10px;
+    margin-right: 20px;
+}
+span:hover{
+   color: brown;
+   text-decoration: underline;
+   cursor: pointer;
+}
+.content{
+    display: flex;
+    /* margin-top: 100px; */
+}
+ .intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 100px;
+}
+#dev{
+    margin-top: 10px;
+    word-spacing: 07px;
+    font-size: larger;
+}
+b{
+    color: brown;
+}
+#lorem{
+    margin-top: 10px;
+    padding: 10x;
+}
+.logos{
+   margin-top: 20px;
+}
+#link{
+    border: thin solid brown;
+    color: brown;
+    padding: 10px;
+    border-radius: 50%;
+}
+#tweet{
+    border: thin solid brown;
+    color: brown;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#insta{
+    border: thin solid brown;
+    color: brown;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#git{
+    border: thin solid brown;
+    color: brown;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+button{
+    width: 130px;
+    border: solid thin brown;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: large;
+    color: brown;
+}
+@media (max-width:700px){
+    .logo{
+        text-indent: 20px;
+    }
+    nav{
+        display: none;
+    }
+    img{
+        /* display: inline-block; */
+        width: 300px;
+        height: 300px;
+        margin: 0;
+        /* border: thin solid silver; */
+    }
+    .content{
+        /* display: inline-block; */
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: auto;
+        margin: auto;
+        padding: 20px;
+    }
+     p{
+        text-align: left;
+        width: 330px;
+        margin-left: 80px;
+    }
+
+    button{
+        /* margin-bottom: 30px; */
+        margin-left: 80px;
+    }
+    .intro{
+        margin: 0%;
+    }
+    .logos{
+        margin-right: 50px;
+    }
+    
+}
+i{
+    cursor: pointer;
+}
+#link:hover{
+    color: black;
+    background-color: brown;
+    font-size: larger;
+    transition: font-size 0.5s,background-color 0s;
+}
+#git:hover{
+ color: black;
+ background-color: brown;
+ font-size: larger;
+transition: font-size 0.5s,background-color 0s;
+}
+#tweet:hover{
+    color: black;
+    background-color: brown;
+    font-size: larger;
+    transition: font-size 0.5s,background-color 0s;
+}
+#insta:hover{
+     color: black;
+    background-color: brown;
+    font-size: x-large;
+    transition: font-size 0.5s,background-color 0s;
+
+}
+button:hover{
+    color: black;
+    background-color: brown;
+    cursor: pointer;
+    /* font-size: larger; */
+    /* transition: font-size 0.5s,background-color 0s; */
+}
